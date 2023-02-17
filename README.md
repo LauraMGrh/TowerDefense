@@ -1,5 +1,16 @@
 # PANGOLIN INVASION GAME - By Rémi DAGORN & Laura GREHAIGNE
 
+## HOW TO BUILD
+To compile, run:
+```sh 
+make build
+```
+Then, to start a game, run:
+```sh
+make run
+```
+
+
 ## PRESENTATION DU JEU :
 Bienvenue sur Pangolin invasion, un jeu de tower défense dans lequel vous devrez protéger votre hopital de l'attaque de pangolins et chauves-souris contaminés par la covid-19.
 Les règles de base du jeu sont sur le document donné par les professeurs de l'université, mais voici quelques courtes explications:

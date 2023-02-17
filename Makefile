@@ -6,5 +6,5 @@ build: clean
 clean:
 	rm -r bin | true
 
-run: build
+run:
 	java -cp bin MainPackage/Main
