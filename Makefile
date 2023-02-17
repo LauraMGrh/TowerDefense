@@ -1,0 +1,10 @@
+build: clean
+	cp -r src bin
+	javac bin/*/*.java
+	rm bin/*/*.java
+
+clean:
+	rm -r bin | true
+
+run: build
+	java -cp bin MainPackage/Main
